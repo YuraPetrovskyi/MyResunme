@@ -45,7 +45,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-nav ul li{
+nav ul li {
     margin: 10px;
     list-style-type: none;
     font-size: 20px;
@@ -72,12 +72,25 @@ nav ul li{
     text-align: center;
     width: 50%;
     align-items: center; 
-    margin: auto auto; 
-    
+    margin: auto auto;     
 }
 #education div{
     border: 1px solid rgb(6, 6, 6);
     border-radius: 20px;
+}
+
+#certificate {    
+    text-align: center;
+}
+#certificate-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#certificate-img img {
+    max-width: 300px;
+    margin: 10px;
+    
 }
 
 #skills-container {
