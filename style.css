@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(229, 236, 235);
+    max-width: 1200px;
+    align-items: center;
+    font-family: 'Open Sans';
+    margin: auto auto;
+    
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+#name i{
+    font-size: 20px;
+}
+#name p{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 900;
+}
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font: 1.3rem italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;    
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 10px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#experience {
+    
+    display: flex;
+}
+
+#experience div {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    padding: 5px;
+}
+
+#education {
+    text-align: center;
+    width: 50%;
+    align-items: center; 
+    margin: auto auto; 
+    
+}
+#education div{
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 20px;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+#languages ul{
+    display: flex;
+    justify-content: center;
+}
+
+#languages ul li{
+    margin:  0 5% ;
+    list-style-type: none;
+}
+
+#contact p{
+    text-align: center;
+}
+
