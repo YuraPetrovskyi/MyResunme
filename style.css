@@ -93,6 +93,15 @@ nav ul li {
     
 }
 
+#project {
+    text-align: center;
+}
+#project label{
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+
 #skills-container {
     display: flex;
     justify-content: space-around;
