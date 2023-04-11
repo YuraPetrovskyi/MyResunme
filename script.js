@@ -34,7 +34,6 @@ certificates.onmouseout = zoomImgLow;*/
 
 function zoomHigth(event) {
     event.target.style.maxWidth = '900px';
-    event.removeEventListener('click', zoomHigth)
 }
 //certificates1.onmousedown = zoomHigth;
 
